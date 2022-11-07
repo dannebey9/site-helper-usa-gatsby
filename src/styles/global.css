@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+.taplink-btn {
+    @apply border-2     border-red-600 text-white font-bold py-4 px-6 rounded-full w-64 ;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
