@@ -1,11 +1,10 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import Seo from "../components/seo"
 
 const Taplink = () => {
   return (
-    <div className="inset-0 absolute bg-black text-gray-100 flex items-center justify-center">
-      <div className="flex flex-col justify-center max-w-[1000px] container mx-auto text-center">
+    <div className="inset-0 absolute bg-black text-gray-100">
+      <div className="flex flex-col justify-center max-w-[1000px] container mx-auto text-center mt-14">
         <div className="justify-center flex mt-8">
           <StaticImage
             src="../images/handyman-logo.png"
@@ -16,14 +15,20 @@ const Taplink = () => {
             alt="logo"
           />
         </div>
-        <div className="text-4xl uppercase ">handyman roman</div>
-        <div className="text-md text-red-500 leading-3 mb-10">
+        <div className="text-3xl uppercase ">handyman roman</div>
+        <div className="text-sm text-red-500 leading-3 mb-10">
           a button clicked. everything fixed
         </div>
         <div className="flex md:flex-row flex-col gap-4 justify-center items-center">
-          <a className="taplink-btn">Call</a>
-          <a className="taplink-btn">What'sApp</a>
-          <a className="taplink-btn">Telegram</a>
+          <a className="taplink-btn" href="tel:+19172923343">
+            Call
+          </a>
+          <a className="taplink-btn" href="https://wa.me/19172923343">
+            What'sApp
+          </a>
+          <a className="taplink-btn" href="https://wa.me/19172923343">
+            Telegram
+          </a>
         </div>
       </div>
     </div>
