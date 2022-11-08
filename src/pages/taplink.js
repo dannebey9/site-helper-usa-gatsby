@@ -37,7 +37,7 @@ const Taplink = () => {
             </div>
             What'sApp
           </a>
-          <a className="taplink-btn" href="https://wa.me/19172923343">
+          <a className="taplink-btn" href="https://t.me/handy_roman">
             <div className="absolute top-[50%]  right-1 -translate-y-1/2 rounded-full">
               <TbBrandTelegram size="2em" className="m-2" />
             </div>
