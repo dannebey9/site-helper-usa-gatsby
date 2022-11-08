@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
 .taplink-btn {
-    @apply border-2     border-red-600 text-white font-bold py-4 px-6 rounded-full w-64 ;
+    @apply border-2  relative text-left   border-red-600 text-white font-bold py-4 px-6 rounded-full w-64 transition-all duration-500 hover:shadow-lg hover:shadow-red-600;
 }
 
 * {
